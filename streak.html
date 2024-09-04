@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+      <meta charset="utf-8" />
+
+      <title>Duolingo - Homepage</title>
+      <meta name="description" content="Startup HTML template OptimizedHTML 5" />
+      <meta name="viewport" content="width=device-width" />
+      <link rel="icon" href="img/favicon.ico" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet"
+      />
+      <link rel="stylesheet" href="styles/style.min.css" />
+    </head>
+
+  <body>
+    <div id="wrapper">
+      
+
+      <main id="main">
+        <div class="streak">
+          <div class="streak-header">
+            <div class="container">
+              <ul class="close">
+                <li class="cross">
+                  <a href="./home-page.html">
+                    <span class="icon-cross"></span>
+                  </a>
+                </li>
+                <li>Ударный режим</li>
+                <li>
+                  <a href="#">
+                    <img src="img/share-big.svg" alt="share" />
+                  </a>
+                </li>
+              </ul>
+              <ul class="tab-links @@extraClass">
+                <li class="active"><a class="ellipsis" href="#tab1">ЛИЧНЫЙ</a></li>
+                <li><a class="ellipsis" href="#tab2">С ДРУЗЬЯМИ</a></li>
+              </ul>
+
+              <!-- <ul class="tab-links">
+                <li class="active">
+                  <a class="ellipsis" href="#tab1">ЛИЧНЫЙ</a>
+                </li>
+                <li><a class="ellipsis" href="#tab2">С ДРУЗЬЯМИ</a></li>
+              </ul> -->
+            </div>
+          </div>
+          <div class="tab-content">
+            <div id="tab1" class="tab active">
+              <div class="tab-header">
+                <div class="container">
+                  <div class="days-streak">
+                    <div>
+                      <span class="number">0</span>
+                      <span>дней в ударе!</span>
+                    </div>
+                    <div class="box-img">
+                      <img src="img/big-gray-fire.svg" alt="gray-fire" />
+                    </div>
+                  </div>
+                  <div class="no-frost">
+                    <div class="box-img">
+                      <img
+                        src="img/frozen-streak.svg"
+                        width="40"
+                        alt="frozen"
+                      />
+                    </div>
+                    <div>
+                      <h4><strong>Заморозок</strong> больше нет!</h4>
+                      <a href="#" class="more">ПОЛУЧИТЬ БОЛЬШЕ</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="calendar-holder">
+                <div class="container">
+                  <h2>Календарь</h2>
+                  <div class="calendar">
+                    <div class="calendar-header">
+                      <span class="prev-month">&#10094;</span>
+                      <span class="month-year"></span>
+                      <span class="next-month">&#10095;</span>
+                    </div>
+                    <table class="calendar-days">
+                      <thead>
+                        <tr>
+                          <th>Пн</th>
+                          <th>Вт</th>
+                          <th>Ср</th>
+                          <th>Чт</th>
+                          <th>Пт</th>
+                          <th>Сб</th>
+                          <th>Вс</th>
+                        </tr>
+                      </thead>
+                      <tbody></tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="tab2" class="tab">
+              <div class="streak-together">
+                <div class="container">
+                  <div class="box-img">
+                    <img src="img/arm-wrestling.svg" alt="svg" />
+                  </div>
+                  <h2>
+                    Учавствуйте в <strong>дружеских забегах</strong> и вместе
+                    закрепляйте прогресс изо дня в день!
+                  </h2>
+                  <a href="#" class="btn btn-blue">ПРИГЛАСИТЬ ДРУЗЕЙ</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+    <script src="js/main.min.js"></script>
+  </body>
+</html>

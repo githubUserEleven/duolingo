@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+      <meta charset="utf-8" />
+
+      <title>Duolingo - Homepage</title>
+      <meta name="description" content="Startup HTML template OptimizedHTML 5" />
+      <meta name="viewport" content="width=device-width" />
+      <link rel="icon" href="img/favicon.ico" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet"
+      />
+      <link rel="stylesheet" href="styles/style.min.css" />
+    </head>
+
+  <body>
+    <div id="wrapper">
+      
+      <main id="main">
+        <section class="section-form">
+          <div class="container">
+            <div class="login d-flex flex-column justify-content-between">
+              <div class="top-holder">
+                <div class="title-box">
+                  <a href="./log-in-form.html" class="arrow-back"
+                  ><i class="icon-arrow-left"></i
+                ></a>
+                  <h3>Введите данные</h3>
+                </div>
+                <form class="login-form" action="/submit" id="loginForm">
+                  <input
+                    type="text"
+                    id="usernameOrEmail"
+                    placeholder="Имя пользователя или email"
+                  />
+
+                  <input type="password" id="password" placeholder="Пароль" />
+                  <div class="error-message" id="usernameOrEmailError">
+                    Введите имя пользователя или email.
+                  </div>
+                  <div class="error-message" id="passwordError">
+                    Введите пароль.
+                  </div>
+
+                  <a
+                    href="./home-page.html"
+                    id="submitBtn"
+                    aria-disabled="true"
+                    class="btn btn-primary"
+                  >
+                    ВОЙТИ
+                  </a>
+                </form>
+
+                <a href="#" class="forgot-password">ЗАБЫЛИ ПАРОЛЬ?</a>
+              </div>
+
+              <div class="bottom-holder">
+                <div class="button-box d-flex justify-content-around">
+                  <a href="#" class="btn btn-outline facebook"
+                    ><img
+                      src="img/facebook-icon.svg"
+                      alt="facebook-icon"
+                    /><span>FACEBOOK</span></a
+                  >
+                  <a href="#" class="btn btn-outline google"
+                    ><img src="img/google-icon.svg" alt="google-icon" /><span
+                      >GOOGLE</span
+                    ></a
+                  >
+                </div>
+                <p>
+                  Выполняя вход в аккаунт Duolingo, вы соглашаетесь с нашими
+                  <strong>Условиями</strong> и
+                  <strong>Политикой</strong> конфиденциальности
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+    <script src="js/main.min.js"></script>
+  </body>
+</html>
